@@ -1,0 +1,18 @@
+/* 全体のスタイル */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  background-color: #fffaf0;
+  color: #444;
+  margin: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 見出しのスタイル */
+h1 {
+  color: #d2691e;
+  border-bottom: 3px dotted #d2691e;
+  padding-bottom: 10px;
+}
