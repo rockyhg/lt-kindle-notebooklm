@@ -29,17 +29,21 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-gray-100); /* 背景色を薄いグレーに変更 */
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   padding: 2rem 1rem;
 }
 
 /* Container for content */
-.markdown-body {
-  max-width: 800px;
+main { /* .markdown-body から main に変更しました */
+  max-width: 720px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem; /* パディングを少し広げます */
+  background-color: var(--bs-body-bg); /* コンテンツエリアの背景を白に設定 */
+  border: 1px solid var(--bs-border-color); /* 枠線を追加 */
+  border-radius: var(--bs-border-radius); /* 角を丸くします */
+  box-shadow: var(--bs-box-shadow); /* 影を追加して立体感を演出 */
 }
 
 /* Headings - Stylish Version */
@@ -207,4 +211,3 @@ hr {
   border: 0;
   border-top: 1px solid var(--bs-border-color);
 }
-
