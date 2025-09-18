@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# NotebookLM は学習のゲームチェンジャー
+# NotebookLM 学習活用法
 
 **動画も書籍も、すべてを使える知識に変える活用術**
 
